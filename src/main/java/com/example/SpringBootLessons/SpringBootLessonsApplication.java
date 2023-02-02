@@ -10,4 +10,5 @@ public class SpringBootLessonsApplication {
 		SpringApplication.run(SpringBootLessonsApplication.class, args);
 	}
 
+	
 }
