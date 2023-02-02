@@ -1,7 +1,7 @@
-package com.example.SpringBootLessons.controllers;
+package com.example.spring_boot_lessons.controllers;
 
-import com.example.SpringBootLessons.models.Post;
-import com.example.SpringBootLessons.repo.PostRepository;
+import com.example.spring_boot_lessons.models.Post;
+import com.example.spring_boot_lessons.repo.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,12 +1,13 @@
-package com.example.SpringBootLessons.models;
+package com.example.spring_boot_lessons.models;
 
-import javax.persistence.Entity;
+import jakarta.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import jakarta.persistence.Id;
 
 @Entity
 public class Post {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
